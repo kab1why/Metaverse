@@ -1,0 +1,87 @@
+/* font settings */
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+@font-face {
+  font-family: Orbitron;
+  src: url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap");
+
+@font-face {
+  font-family: Montserrat;
+  src: url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap");
+}
+
+/* left part banner*/
+.container .banner .left-part .main-text {
+  font-family: Orbitron;
+  color: #fff;
+  margin-bottom: 40px;
+  size: 50px;
+}
+
+.container .banner .left-part .sub-text {
+  font-family: Montserrat;
+  color: gray;
+  margin-bottom: 57px;
+}
+
+.container .banner .left-part .buttons .btn-part .btn {
+  color: #fff;
+  font-family: Inter;
+  background-color: #1d51fe;
+  width: 140px;
+  height: 54px;
+  margin-right: 40px;
+  font-size: 17px;
+  margin-bottom: 38px;
+}
+
+.container .banner .left-part .buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container .banner .left-part .buttons .banner-icons {
+  margin-bottom: 40px;
+}
+
+.container .banner .left-part .stats h5 {
+  color: #fff;
+  font-family: Orbitron;
+  margin-right: 70px;
+}
+
+.container .banner .left-part .stats .people h6 {
+  font-family: Inter;
+  color: gray;
+}
+
+.container .banner .left-part .stats h5 {
+  color: #fff;
+  font-family: Orbitron;
+}
+
+.container .banner .left-part .stats .buy h6 {
+  font-family: Inter;
+  color: gray;
+}
+
+.container .banner .left-part .stats img {
+  margin-right: 45px;
+}
+
+.container .banner .left-part .stats {
+  display: flex;
+  flex-direction: row;
+}
+
+/* right part banner */
+
+.container .banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
