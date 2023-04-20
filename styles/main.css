@@ -13,3 +13,10 @@ body {
 a {
   text-decoration: none;
 }
+
+.logo-circle {
+  width: 504px;
+  height: 504px;
+  position: absolute;
+  z-index: 0;
+}

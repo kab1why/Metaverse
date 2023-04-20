@@ -14,6 +14,11 @@
 }
 
 /* left part banner*/
+
+.container .banner .left-part {
+  z-index: 1;
+}
+
 .container .banner .left-part .main-text {
   font-family: Orbitron;
   color: #fff;
@@ -84,4 +89,35 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.banner-picture {
+  position: relative;
+}
+
+.banner-picture .banner-picture-info {
+  color: #fff;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  bottom: 49px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+}
+
+.banner-picture .banner-picture-info .title {
+  position: relative;
+}
+
+.banner-picture .banner-picture-info .title:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 2px;
+  width: 233px;
+  content: "";
+  background-color: #fff;
+  transform: translate(-50%, 0);
 }
