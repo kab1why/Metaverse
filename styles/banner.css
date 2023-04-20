@@ -91,33 +91,26 @@
   justify-content: space-between;
 }
 
-.banner-picture {
+.banner .banner-picture {
   position: relative;
 }
 
-.banner-picture .banner-picture-info {
-  color: #fff;
+.banner .picture-text {
   position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  bottom: 49px;
   left: 50%;
+  bottom: 0;
   transform: translate(-50%, 0);
   text-align: center;
+  /* margin-left: 100px; */
 }
 
-.banner-picture .banner-picture-info .title {
-  position: relative;
+.banner .right-part .banner-picture .picture-text h2 {
+  font-family: Orbitron;
+  color: #fff;
 }
 
-.banner-picture .banner-picture-info .title:after {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  height: 2px;
-  width: 233px;
-  content: "";
-  background-color: #fff;
-  transform: translate(-50%, 0);
+.banner .right-part .banner-picture .picture-text p {
+  font-family: Inter;
+  color: gray;
+  font-size: 17px;
 }
