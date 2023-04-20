@@ -85,3 +85,18 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+.container .banner .right-part .banner-picture .picture-text {
+  margin-left: 100px;
+}
+
+.container .banner .right-part .banner-picture .picture-text h2 {
+  font-family: Orbitron;
+  color: #fff;
+}
+
+.container .banner .right-part .banner-picture .picture-text p {
+  font-family: Inter;
+  color: gray;
+  font-size: 17px;
+}
