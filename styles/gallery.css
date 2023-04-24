@@ -1,0 +1,28 @@
+.gallery-part .gallery-first {
+  height: 100vh;
+  position: relative;
+}
+
+.gallery-part .gallery-first .text {
+  max-width: 12ch;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #000;
+  z-index: 2;
+}
+
+.gallery-part .gallery-first .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.text b {
+  color: #fff;
+}
