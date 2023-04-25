@@ -1,0 +1,47 @@
+.add-banner {
+  display: flex;
+  flex-direction: row;
+  margin-top: 170px;
+}
+
+.add-banner .add-info {
+  margin-left: 30px;
+}
+
+.add-banner .add-info .title {
+  font-family: Orbitron;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.add-banner .add-info .desc {
+  font-family: Montserrat;
+  color: grey;
+  font-size: 20px;
+}
+
+.add-banner .add-info .info-links h5 {
+  font-family: Montserrat;
+  color: #fff;
+  margin-top: 34px;
+  margin-bottom: 20px;
+}
+
+.add-banner .add-info .info-links p {
+  font-family: Montserrat;
+  color: grey;
+  font-size: 20px;
+}
+
+.add-banner .add-info .info-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.add-banner .add-info .info-links .join {
+  margin-right: 52px;
+}
+
+.add-banner .add-info .info-links .rectangle {
+  margin-right: 52px;
+}
