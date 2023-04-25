@@ -1,0 +1,29 @@
+.feedbacks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  padding-top: 107px;
+  padding-left: 58px;
+  margin-top: 150px;
+}
+
+.feedbacks .bg-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.feedbacks .feedback {
+  margin-right: 70px;
+  margin-left: 23px;
+  z-index: 2;
+}
+
+.feedbacks .feedback h3 {
+  font-family: Orbitron;
+  color: #fff;
+  margin-bottom: 17px;
+}
