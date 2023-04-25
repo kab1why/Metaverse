@@ -1,0 +1,87 @@
+/* first gallery part */
+
+.gallery-part {
+  height: 683px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.gallery-part img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.gallery-part-title {
+  font-size: 56px;
+  line-height: 67px;
+  font-weight: 900;
+  font-family: "Orbitron";
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  z-index: 2;
+  color: #000;
+}
+
+.gallery-part-title .white {
+  color: #fff;
+  max-width: 16ch;
+}
+
+.gallery-part-title .exp {
+  width: 100%;
+}
+
+.gallery-part-title .black {
+  color: #000;
+}
+
+/* second gallery part */
+
+.second-gallery-part .left-gallery {
+  display: flex;
+  flex-direction: column;
+  margin-top: 96px;
+  margin-left: 45px;
+}
+
+.second-gallery-part .left-gallery .astronaut-picture img {
+  width: 342.35px;
+  height: 210.03px;
+}
+
+.second-gallery-part .left-gallery h5 {
+  font-family: Orbitron;
+  color: #fff;
+  margin-top: 65px;
+  margin-bottom: 22px;
+}
+
+.second-gallery-part .left-gallery p {
+  font-family: Orbitron;
+  color: grey;
+}
+
+.second-gallery-part {
+  display: flex;
+  flex-direction: row;
+}
+
+.second-gallery-part .right-gallery {
+  margin-left: 110px;
+  margin-top: 95px;
+}
+
+.second-gallery-part .right-gallery p {
+  font-family: Orbitron;
+  color: grey;
+}
