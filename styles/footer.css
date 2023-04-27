@@ -1,0 +1,67 @@
+footer .title {
+  font-family: Orbitron;
+  font-weight: 600;
+  font-size: 17px;
+  color: #fff;
+}
+
+footer .desc {
+  font-family: Montserrat;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* links part */
+
+footer {
+  background-color: #1d51fe;
+  font-family: Orbitron;
+
+  display: flex;
+  flex-direction: row;
+}
+
+footer .links {
+  margin-top: 40px;
+  margin-left: 115px;
+}
+
+footer .links img {
+  margin-bottom: 19px;
+}
+
+footer .links p {
+  font-family: Orbitron;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+footer .links span {
+  font-weight: 700;
+}
+
+/* details part */
+
+footer .details {
+  display: flex;
+  flex-direction: row;
+  margin-top: 54px;
+  margin-left: 120px;
+}
+
+.details .team {
+  margin-right: 75px;
+}
+
+/* sub part */
+
+footer .sub {
+  margin-top: 54px;
+  margin-left: 61px;
+}
+
+footer .sub .input .btn {
+  color: #fff;
+  background-color: black;
+  border-radius: 0px;
+}
