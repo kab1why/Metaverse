@@ -16,9 +16,9 @@ footer .desc {
 footer {
   background-color: #1d51fe;
   font-family: Orbitron;
-
   display: flex;
   flex-direction: row;
+  margin-top: 140px;
 }
 
 footer .links {
