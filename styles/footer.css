@@ -1,6 +1,5 @@
 footer .title {
   font-family: Orbitron;
-  font-weight: 600;
   font-size: 17px;
   color: #fff;
 }
@@ -64,4 +63,22 @@ footer .sub .input .btn {
   color: #fff;
   background-color: black;
   border-radius: 0px;
+}
+
+/* input part */
+
+.subscribe-form input {
+  background-color: rgba(217, 217, 217, 0.2);
+  color: #fff;
+  padding: 14px 21px;
+  border: none;
+  outline: none;
+}
+
+.subscribe-form input::placeholder {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.sub .input .btn {
+  margin-top: 15px;
 }
