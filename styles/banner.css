@@ -24,6 +24,7 @@
   color: #fff;
   margin-bottom: 40px;
   size: 50px;
+  font-weight: 900;
 }
 
 .container .banner .left-part .sub-text {
@@ -88,11 +89,13 @@
 .container .banner {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .banner .banner-picture {
   position: relative;
+  margin-left: 200px;
+  margin-bottom: 50px;
 }
 
 .banner .picture-text {
