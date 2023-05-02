@@ -1,39 +1,30 @@
-/* font settings */
-@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
-
-@font-face {
-  font-family: Orbitron;
-  src: url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap");
-
-@font-face {
-  font-family: Montserrat;
-  src: url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap");
-}
-
 /* left part banner*/
 
-.container .banner .left-part {
+.banner .left-part {
   z-index: 1;
+  padding: 120px 0 0 0;
+  width: 511px;
 }
 
-.container .banner .left-part .main-text {
-  font-family: Orbitron;
+.banner .left-part .main-text {
+  font-family: "Orbitron";
   color: #fff;
   margin-bottom: 40px;
-  size: 50px;
   font-weight: 900;
+  font-size: 48.7px;
+  line-height: 67px;
 }
 
-.container .banner .left-part .sub-text {
-  font-family: Montserrat;
-  color: gray;
+.banner .left-part .sub-text {
+  font-family: "Montserrat";
+  color: #fff;
   margin-bottom: 57px;
+  font-weight: 400;
+  font-size: 18.5px;
+  line-height: 22px;
 }
 
-.container .banner .left-part .buttons .btn-part .btn {
+.banner .left-part .buttons .btn-part .btn {
   color: #fff;
   font-family: Inter;
   background-color: #1d51fe;
@@ -44,58 +35,60 @@
   margin-bottom: 38px;
 }
 
-.container .banner .left-part .buttons {
+.banner .left-part .buttons {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.container .banner .left-part .buttons .banner-icons {
+.banner .left-part .buttons .banner-icons {
   margin-bottom: 40px;
 }
 
-.container .banner .left-part .stats h5 {
+.banner .banner-icons img:not(:first-child) {
+  margin: 0 0 0 -12px;
+}
+
+.banner .left-part .stats h5 {
   color: #fff;
-  font-family: Orbitron;
+  font-family: "Orbitron";
   margin-right: 70px;
 }
 
-.container .banner .left-part .stats .people h6 {
+.banner .left-part .stats .people h6 {
   font-family: Inter;
   color: gray;
 }
 
-.container .banner .left-part .stats h5 {
+.banner .left-part .stats h5 {
   color: #fff;
-  font-family: Orbitron;
+  font-family: "Orbitron";
 }
 
-.container .banner .left-part .stats .buy h6 {
+.banner .left-part .stats .buy h6 {
   font-family: Inter;
   color: gray;
 }
 
-.container .banner .left-part .stats img {
+.banner .left-part .stats img {
   margin-right: 45px;
 }
 
-.container .banner .left-part .stats {
+.banner .left-part .stats {
   display: flex;
   flex-direction: row;
 }
 
 /* right part banner */
 
-.container .banner {
+.banner {
   display: flex;
   flex-direction: row;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
 
 .banner .banner-picture {
   position: relative;
-  margin-left: 200px;
-  margin-bottom: 50px;
 }
 
 .banner .picture-text {
@@ -104,11 +97,15 @@
   bottom: 0;
   transform: translate(-50%, 0);
   text-align: center;
-  /* margin-left: 100px; */
+}
+
+.banner .right-part {
+  max-width: 647px;
+  margin: 0 -30px 0 auto;
 }
 
 .banner .right-part .banner-picture .picture-text h2 {
-  font-family: Orbitron;
+  font-family: "Orbitron";
   color: #fff;
 }
 

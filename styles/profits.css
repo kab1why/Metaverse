@@ -1,15 +1,22 @@
 /* left-part */
 
+.metavers-profits .metaverse,
+.metavers-profits .Path,
+.metavers-profits .fun,
+.metavers-profits .fast {
+  padding: 23px 34px;
+}
+
 /* first - section */
 .metavers-profits .left-part .first-section .metaverse .title span {
-  font-family: Orbitron;
+  font-family: "Orbitron";
   font-size: 22px;
   font-weight: 600;
   color: #fff;
 }
 
 .metavers-profits .left-part .first-section .metaverse .desc span {
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 19px;
   font-weight: 400;
   color: grey;
@@ -18,6 +25,7 @@
 .metavers-profits .title {
   display: flex;
   flex-direction: row;
+  align-items: center;
   margin-bottom: 31px;
 }
 
@@ -36,14 +44,14 @@
 }
 
 .metavers-profits .left-part .first-section .Path .title span {
-  font-family: Orbitron;
+  font-family: "Orbitron";
   font-size: 22px;
   font-weight: 600;
   color: #fff;
 }
 
 .metavers-profits .left-part .first-section .Path .desc span {
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 19px;
   font-weight: 400;
   color: grey;
@@ -52,28 +60,28 @@
 /* second - section */
 
 .metavers-profits .left-part .second-section .fun .title span {
-  font-family: Orbitron;
+  font-family: "Orbitron";
   font-size: 22px;
   font-weight: 600;
   color: #fff;
 }
 
 .metavers-profits .left-part .second-section .fun .desc span {
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 19px;
   font-weight: 400;
   color: grey;
 }
 
 .metavers-profits .left-part .second-section .fast .title span {
-  font-family: Orbitron;
+  font-family: "Orbitron";
   font-size: 22px;
   font-weight: 600;
   color: #fff;
 }
 
 .metavers-profits .left-part .second-section .fast .desc span {
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 19px;
   font-weight: 400;
   color: grey;
@@ -91,14 +99,14 @@
 /* right - part */
 
 .metavers-profits .right-part .title {
-  font-family: Orbitron;
+  font-family: "Orbitron";
   font-size: 35px;
   font-weight: 900;
   color: #fff;
 }
 
 .metavers-profits .right-part .desc {
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 19px;
   font-weight: 400;
   color: #ffffffd9;
@@ -107,15 +115,13 @@
 .metavers-profits {
   display: flex;
   flex-direction: row;
-  margin-bottom: 150px;
-  margin-left: 100px;
+  margin: 115px 0 200px 0;
 }
 
 .metavers-profits .left-part {
-  margin-right: 100px;
-  margin-left: 60px;
+  margin-right: auto;
 }
 
 .metavers-profits .right-part {
-  margin-top: 50px;
+  margin: auto 90px auto 0;
 }

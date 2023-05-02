@@ -9,26 +9,26 @@
 }
 
 .add-banner .add-info .title {
-  font-family: Orbitron;
+  font-family: "Orbitron";
   color: #fff;
   margin-bottom: 50px;
 }
 
 .add-banner .add-info .desc {
-  font-family: Montserrat;
+  font-family: "Montserrat";
   color: grey;
   font-size: 20px;
 }
 
 .add-banner .add-info .info-links h5 {
-  font-family: Montserrat;
+  font-family: "Montserrat";
   color: #fff;
   margin-top: 34px;
   margin-bottom: 20px;
 }
 
 .add-banner .add-info .info-links p {
-  font-family: Montserrat;
+  font-family: "Montserrat";
   color: grey;
   font-size: 20px;
 }

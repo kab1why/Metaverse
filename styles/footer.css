@@ -1,38 +1,71 @@
 footer .title {
-  font-family: Orbitron;
+  font-family: "Orbitron";
   font-size: 17px;
   color: #fff;
 }
 
 footer .desc {
-  font-family: Montserrat;
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat";
   font-size: 15px;
   color: rgba(255, 255, 255, 0.85);
+}
+
+footer .desc a:not(:last-child) {
+  margin: 0 0 16.5px 0;
 }
 
 /* links part */
 
 footer {
   background-color: #1d51fe;
-  font-family: Orbitron;
+  font-family: "Orbitron";
+  padding: 38px 0;
+  margin: 33px 43px;
+  position: relative;
+}
 
+footer:before,
+footer:after {
+  content: "";
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  left: 0;
+}
+
+footer:before {
+  top: -33px;
+}
+
+footer:after {
+  bottom: -33px;
+}
+
+footer .container {
   display: flex;
   flex-direction: row;
 }
 
 footer .links {
-  margin-top: 40px;
-  margin-left: 115px;
+  margin: 0 auto 0 0;
 }
 
 footer .links img {
   margin-bottom: 19px;
 }
 
-footer .links p {
-  font-family: Orbitron;
+footer .links p,
+footer a {
   font-size: 15px;
+  line-height: 18px;
   color: rgba(255, 255, 255, 0.85);
+}
+
+footer .links p {
+  font-family: "Orbitron";
 }
 
 footer .links span {
@@ -44,19 +77,23 @@ footer .links span {
 footer .details {
   display: flex;
   flex-direction: row;
-  margin-top: 54px;
-  margin-left: 120px;
+}
+
+footer .title {
+  margin: 0 0 25px 0;
 }
 
 .details .team {
-  margin-right: 75px;
+}
+
+.details .details-col {
+  margin: 20px 60px 0 0;
 }
 
 /* sub part */
 
 footer .sub {
-  margin-top: 54px;
-  margin-left: 61px;
+  margin: 20px 0 0 0;
 }
 
 footer .sub .input .btn {
@@ -79,6 +116,22 @@ footer .sub .input .btn {
   color: rgba(255, 255, 255, 0.85);
 }
 
+.sub .input {
+  display: flex;
+  flex-direction: row;
+}
+
 .sub .input .btn {
-  margin-top: 15px;
+  flex-basis: 100%;
+  margin: 0 0 0 16px;
+}
+
+.policy {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 24px 0 16px 0;
+  font-family: "Orbitron";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
 }
