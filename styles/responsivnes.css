@@ -1,0 +1,55 @@
+@media screen and (max-width: 1400px) {
+  .container header .site-name {
+    display: none;
+  }
+  header .head-links a {
+    margin-left: 70px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .second-gallery-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .container header .head-links {
+  }
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .metavers-profits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .add-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .container .links p {
+    margin-left: 145px;
+  }
+}
