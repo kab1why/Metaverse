@@ -18,7 +18,9 @@
 }
 
 @media screen and (max-width: 990px) {
-  .container header .head-links {
+  header {
+    display: flex;
+    flex-direction: column;
   }
 
   .banner {
@@ -51,5 +53,24 @@
 
   footer .container .links p {
     margin-left: 145px;
+  }
+
+  footer .container .links img {
+    margin-left: 260px;
+  }
+
+  .end-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .end-part .left-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
   }
 }
